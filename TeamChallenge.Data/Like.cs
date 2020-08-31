@@ -10,7 +10,7 @@ namespace TeamChallange.Models
     public class Like
     {
         public Post LikedPost { get; set; }
-        public User Liker { get; set; }
+        public SocialMediaUser Liker { get; set; }
 
     }
 }
