@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace TeamChallange.Models
 {
-    public class User
+    public class SocialMediaUser
     {
-        public Guid Id { get; set; }
+        public Guid SocialMediaUserId { get; set; }
         public string Name { get; set; }
         public string Email { get; set; }
 

@@ -57,11 +57,22 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="PostService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\TeamChallange.Models\TeamChallange.Models.csproj">
+      <Project>{d4619423-9544-4332-b24f-81b579fb2807}</Project>
+      <Name>TeamChallange.Models</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TeamChallenge.Data\TeamChallenge.Data.csproj">
+      <Project>{3ade3cc0-f1d1-447f-9d30-d4486d25233c}</Project>
+      <Name>TeamChallenge.Data</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
