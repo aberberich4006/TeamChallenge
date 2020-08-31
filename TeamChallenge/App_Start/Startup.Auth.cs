@@ -10,6 +10,7 @@ using Microsoft.Owin.Security.OAuth;
 using Owin;
 using TeamChallenge.Providers;
 using TeamChallenge.Models;
+using TeamChallenge.Data;
 
 namespace TeamChallenge
 {
