@@ -13,6 +13,7 @@ using Microsoft.AspNet.Identity.Owin;
 using Microsoft.Owin.Security;
 using Microsoft.Owin.Security.Cookies;
 using Microsoft.Owin.Security.OAuth;
+using TeamChallenge.Data;
 using TeamChallenge.Models;
 using TeamChallenge.Providers;
 using TeamChallenge.Results;
