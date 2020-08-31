@@ -8,5 +8,6 @@ namespace TeamChallange.Models
 {
     public class PostListItem
     {
+
     }
 }
